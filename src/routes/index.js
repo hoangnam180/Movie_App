@@ -8,7 +8,7 @@ import Search from "../features/Movie/Page/Search/Search";
 import OthersMovie from "../features/Movie/Components/OthersMovie";
 
 export const publicRoutes = [
-    { path:"/", component:HomePage},
+    { path:"Movie_App", component:HomePage},
     { path:"phimbo", component:SeriesMovie},
     { path:"phimchieurap", component:MovieTheaters},
     { path:"phimhoathinh", component:Cartoon},
